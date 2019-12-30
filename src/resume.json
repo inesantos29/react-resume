@@ -1,0 +1,153 @@
+
+{
+  "basics": {
+    "name": "Inês Catana",
+    "label": "Frontend Developer && Junior FullStack Software Developer",
+    "picture": "https://media.licdn.com/dms/image/C5603AQGt_Wt0p8SIeg/profile-displayphoto-shrink_200_200/0?e=1583366400&v=beta&t=eEYa5M5dwhgXzZJ9-hA2UWOqJb0FeTvas6EGUTqHFDg",
+    "email": "ines.arts@hotmail.com",
+    "phone": "+351 91 859 2011",
+    "website": "",
+    "summary": "Front End Developer seeking to work closely with a highly motivated team to apply experience in Web Development by leveraging new and existing technologies, and implementing effective solutions.",
+    "location": {
+      "city": "Lisbon",
+      "countryCode": "PT",
+      "region": "Lisbon"
+    },
+
+    "pdf": "ines-catana.pdf",
+
+    "profiles": [{
+      "network": "Github",
+      "username": "inesantos29",
+      "url": "https://github.com/inesantos29"
+    }]
+  },
+  "work": [{
+    "company": "Growin",
+    "current": false,
+    "position": "Front-End Developer",
+    "website": "https://www.growin.com/",
+    "startDate": "November 2018",
+    "endDate": "May 2019",
+    "summary": "Project nearshore, client from Sweden - Regin",
+    "highlights": [
+      "The client has multiple infrastructure management platforms. From the management of\nperiodic tasks (maintenance of lighting, dispensable, etc.), in which the user confirms the\ncompletion of the task and if necessary uploads files, to the management of a web platform\nthat is generated through a tool fully customized design.",
+      "The web platform was developed\nin Flash where it is possible to control sensors, consult the states of the same and create\nalarms. Given that official support for Flash ends in 2020, the need arose to build a new platform.",
+      "The current project aims to create a platform in React, with a new look and feel, new features (IoT) and maintaining the functionality of the previously mentioned applications."
+    ],
+    "responsibilities": [
+      "My main responsibilities were:",
+      "⦁ Develop applications according to layout;",
+      "⦁ Develop the web front-end interface;",
+      "⦁ Develop the front-end of the application using HTML5, CSS3, Flexbox, React Js, Styled Components, React Transition Group, Figma;",
+      "⦁ Responsive Mobile;",
+      "⦁ Proficiency in cross-browser compatibility issues and ways to work around them."
+    ],
+    "technologies:": [
+      "Technologies:",
+      "HTML5; CSS3; JavaScript; ES6; React Js, Styled-Components, React Transition Group; Figma; Asana."
+    ]},
+    {
+      "company": "Ironhack",
+      "current": false,
+      "position": "Teacher Assistant",
+      "website": "http://www.ironhack.com/",
+      "startDate": "February 23, 2019",
+      "endDate": "",
+      "summary": "At WE/CODE Women Edition, 100 women are invited to learn the basics of code within one day in Universidade Católica. Ironhack and Startup Lisboa have decided to join forces to destroy the myths surrounding code and empower women to join the digital tech revolution in Lisbon",
+      "highlights": [
+        "Workshop:",
+        "PART 1: HTML;",
+        "PART 2: CSS3",
+        "PART 3: JAVASCRIPT"
+      ],
+      "responsibilities": [
+        "My main responsibilities were:",
+        "⦁ Helped the students with their doubts and questions about coding."
+      ],
+      "technologies:": [
+        "Technologies:",
+        "HTML5; CSS3; Flexbox; JavaScript;"
+      ]},
+    {
+      "company": "Novabase",
+      "current": false,
+      "position": "Front-End Developer",
+      "website": "http://www.novabase.com",
+      "startDate": "September 2017",
+      "endDate": "December 2018",
+      "summary": "Various clients",
+      "highlights": [
+        "State Street - Intelligent documentation management: using machine learning to analyze and classify articles.",
+        "Caixa Geral de Aposentações - Construction of a retirement simulator."
+      ],
+      "technologies:": [
+        "Technologies:",
+        "HTML5; CSS3; SASS; Bootstrap; JavaScript; jQuery; Gulp; npm; Git; SourceTree; Sketch; Zeplin; JIRA; TFS (Team Foundation Server)"
+      ]},
+    {
+      "company": "Altran",
+      "current": false,
+      "position": "Front-End Developer",
+      "website": "http://www.altran.com",
+      "startDate": "November 2016",
+      "endDate": "September 2017",
+      "summary": "Various clients",
+      "highlights": [
+        "Banco de Portugal - Internal application for administrators to manage their financial agents.",
+        "POC - Prof of concept to Portal do Cidadão - improvements to the existing site, new interface."
+      ],
+      "technologies:": [
+        "Technologies:",
+        "HTML5; CSS3; Boostrap; Javascript; jQuery; Knockout js; C3/D3 js"
+      ]},
+    {
+      "company": "East Atlantic Engineering",
+      "current": false,
+      "position": "Full-Stack Developer",
+      "website": "",
+      "startDate": "October 2015",
+      "endDate": "September 2016",
+      "summary": "This was my first experience as a Web Developer and I learned the main frameworks and other technologies like Backbone js, Git, Npm, Gulp, SASS, Sketch, Sourcetree and WordPress.",
+      "highlights": [
+        "I started to work as a Web Developer, working for East Atlantic Engineering with foreign clients and my main responsibilities were:",
+        "⦁ Develop websites according to layout;",
+        "⦁ Create root WordPress templates;",
+        "⦁ Develop themes and plugins for WordPress based websites;",
+        "⦁ Responsive Mobile;",
+        "⦁ Proficiency in cross-browser compatibility issues and ways to work around them."
+      ],
+      "technologies:": [
+        "Technologies:",
+        "HTML5; CSS3; SASS; JavaScript; jQuery; Backbone Js; Swipe Js; Video Js; Parsley Js; Gulp; Npm; PHP; Wordpress; Git; SourceTree; Photoshop; Illustrator; Sketch; Invision; Trello."
+      ]}
+  ],
+  "education": [{
+    "institution": "ESCS - Escola Superior de Comunicação Social",
+    "area": "Audiovisual and Multimedia",
+    "studyType": "Bachelors",
+    "startDate": "2011",
+    "endDate": "2014"
+  }],
+  "skills": {
+    "name": "Web Development",
+    "level": "Mid-Level",
+    "keywords": [
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "ES6",
+      "React JS",
+      "React Router",
+      "SASS",
+      "jQuery",
+      "MySQL",
+      "Git",
+      "Java"
+    ]
+  },
+  "languages": [{
+    "name": "Portuguese",
+    "level": "Native speaker"
+  }]
+}
