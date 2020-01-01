@@ -1,0 +1,367 @@
+.App {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.hero__logo {
+    height: 40px;
+    vertical-align: middle;
+    animation: hero-logo infinite 20s linear;
+}
+
+@keyframes hero-logo {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+
+
+.App__pages{
+    position: absolute;
+    z-index: 100;
+    left: 2%;
+    top: 0%;
+    list-style: none;
+    display: flex;
+}
+
+.App__pages a {
+    text-decoration: none;
+}
+
+.hero__link {
+    /* display: flex;
+     align-items: center;
+     flex-direction: row;
+     /*position: absolute;
+     top: 1%;*/
+     font-size: 10px;
+}
+
+.hero,
+.Card-Container,
+.Modal-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero {
+    background: #fafafa;
+    width: 40%;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.hero .hero__image{
+    border-radius: 50%;
+    width: 180px;
+    max-width: 100%;
+    border: 2px solid #4a4a4a;
+    margin: 30px;
+}
+
+.Card-Container, .Modal-Container {
+    width: 60%;
+}
+
+.hero .hero__content {
+    /*margin: 0 127px 0 30px;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__header {
+    font-weight: 900;
+    color: #4a4a4a;
+}
+
+.hero .hero__subheader {
+    font-weight: 300;
+}
+
+.hero .hero__summary {
+    font-weight: 200;
+}
+
+.hero .hero__text{
+    margin: 10px 0;
+    font-weight: 200;
+}
+
+.hero .hero__bold{
+    font-weight: 700;
+}
+
+.Skills-list {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+}
+
+.chips {
+    margin: 3px 5px 3px 0;
+    color: white;
+    padding: 9px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+}
+.chips.blue {
+    background: #3b80fe;
+}
+.chips.teal {
+    background: #54E7C7;
+}
+
+.Card-content {
+    width: 100%;
+}
+
+.Jobs-container {
+    background: #54E7C7;
+    color: #fafafa;
+    width: 100%;
+    /*height: 90%;*/
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.jobs-current {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.jobs-flex div {
+    font-weight: 400;
+}
+
+.job-summary {
+    line-height: 1.5;
+}
+
+.job-highlights {
+    list-style: none;
+    font-weight: 200;
+}
+
+@media (min-width: 991px) {
+    .Card-Container {
+        overflow: auto;
+    }
+    .hero,
+    .Card-Container,
+    .Modal-Container {
+        height: 100vh;
+    }
+    .Card-content {
+        height: 100vh;
+    }
+    .bg-gray {
+        background: #fafafa;
+    }
+    .down-here {
+        display: none;
+    }
+}
+
+@media (max-width: 990px) {
+    .App {
+        flex-direction: column;
+    }
+    .hero,
+    .Card-Container {
+        width: 100vw;
+    }
+    .hero {
+        font-size: 24px;
+        height: 100vh;
+    }
+    .Modal-Container {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content/Box */
+    .Modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        /*border: 1px solid #888;*/
+        width: 80%; /* Could be more or less, depending on screen size */
+    }
+}
+
+@media (max-width: 450px) {
+    .hero {
+        font-size: 18px;
+    }
+    .hero .hero__content {
+        margin-top: -100px;
+    }
+    .hero .Skills-list .Skills-chips {
+        font-size: 12px;
+        font-weight: bold;
+        margin: 3px 5px 3px 0;
+        padding: 9px;
+    }
+}
+@media (min-width: 371px) {
+
+    .onlyforiphoneSE {
+        display: none;
+    }
+
+}
+@media (max-width: 370px) {
+    .App__pages{
+        display: none;
+    }
+    .hero__link .onlyforiphoneSE {
+        display: block;
+    }
+
+}
+
+/*Animate below*/
+
+.slide-enter {
+    opacity: 0.01;
+}
+
+.slide-enter.slide-enter-active {
+    opacity: 1;
+    transition: opacity 5000ms ease-in;
+}
+
+.slide-leave {
+    opacity: 1;
+}
+
+.slide-leave.slide-leave-active {
+    opacity: 0.01;
+    transition: opacity 3000ms ease-in;
+}
+
+/*more animations*/
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.animated.infinite {
+    animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+    animation-duration: 2s;
+}
+
+.animated.flipOutX,
+.animated.flipOutY,
+.animated.bounceIn,
+.animated.bounceOut {
+    animation-duration: .75s;
+}
+
+@keyframes bounce {
+    from, 20%, 53%, 80%, to {
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transform: translate3d(0,0,0);
+    }
+
+    40%, 43% {
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+        transform: translate3d(0,-4px,0);
+    }
+}
+
+.bounce {
+    animation-name: bounce;
+    transform-origin: center bottom;
+}
+
+@keyframes bounceInLeft {
+    from, 60%, 75%, 90%, to {
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        transform: translate3d(-3000px, 0, 0);
+    }
+
+    60% {
+        opacity: .7;
+        transform: translate3d(25px, 0, 0);
+    }
+
+    75% {
+        opacity: .95;
+        transform: translate3d(-10px, 0, 0);
+    }
+
+    90% {
+        opacity: 1;
+        transform: translate3d(5px, 0, 0);
+    }
+
+    to {
+        transform: none;
+    }
+}
+
+.bounceInLeft {
+    animation-name: bounceInLeft;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.fadeInLeft {
+    animation-name: fadeInLeft;
+}

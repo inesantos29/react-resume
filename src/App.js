@@ -13,7 +13,11 @@ class App extends Component {
   render() {
     const resume = this.props.resumeJson;
     return (
-      null
+      <Router>
+        <div className="App">
+          <Hero resumeObj={resume}/>
+        </div>
+      </Router>
     );
   }
 }
